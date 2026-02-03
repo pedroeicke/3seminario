@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1e3a8a;
+  /* Blue 900 */
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f1f5f9;
+  /* Slate 100 */
+  --color-secondary-foreground: #0f172a;
+  --color-accent: #3b82f6;
+  /* Blue 500 */
+  --color-accent-foreground: #ffffff;
+  --color-muted: #64748b;
+  /* Slate 500 */
+}
+
+/* Sequel Sans Fonts */
+@font-face {
+  font-family: "Sequel Sans Book Body";
+  src: url("https://framerusercontent.com/assets/gDrXxWdCnpWpy97DYzl23CsbBXg.woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sequel Sans Book Disp";
+  src: url("https://framerusercontent.com/assets/k46OF884AnLpyOszpKcaFu98w.woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sequel Sans Roman Disp";
+  src: url("https://framerusercontent.com/assets/flJHPaJe2KbLTvsjxVLxLQHh3E.woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sequel Sans Medium Disp";
+  src: url("https://framerusercontent.com/assets/wcnGifyTAfNnvm77EooI3XSAyg0.woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Sequel Sans Roman Head";
+  src: url("https://framerusercontent.com/assets/zQ5qubZLICKeQ7XEM7JkOdz4wKg.woff2");
+  font-display: swap;
+  font-style: normal;
+}
+
+/* Inter Fonts */
+@font-face {
+  font-family: "Inter";
+  src: url("https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+:root {
+  --background: #0f172a;
+  /* Darker background default */
+  --foreground: #ffffff;
+  --font-sequel: "Sequel Sans Book Body", sans-serif;
+  --font-sequel-disp: "Sequel Sans Book Disp", sans-serif;
+  --font-sequel-roman: "Sequel Sans Roman Disp", sans-serif;
+  --font-sequel-medium: "Sequel Sans Medium Disp", sans-serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter);
+  @apply antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-sequel-disp);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--font-sequel-medium);
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(122.67deg, #1f2cea 16.09%, #00ffe3 100%);
+}
+
+/* Vertical Carousel Animations */
+@keyframes marqueeDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marqueeUp {
+  0% {
+    transform: translateY(-50%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Shimmer Light Effect */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
