@@ -11,7 +11,7 @@ export function About() {
         {
             category: "O Evento",
             title: "3ª Edição",
-            text: "É com grande satisfação que convidamos você para a 3ª edição do Seminário Nacional de Compras Públicas. Um evento consolidado como referência para gestores e profissionais que atuam nas contratações governamentais em todo o Brasil.",
+            text: "É com grande satisfação que convidamos você para a 3ª edição do Seminário Nacional de Contratações Públicas. Um evento consolidado como referência para gestores e profissionais que atuam nas contratações governamentais em todo o Brasil.",
             image: "/about1.jpg"
         },
         {
