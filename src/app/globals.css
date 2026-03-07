@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@source not "../../.agent/**";
 
 @theme {
   --color-primary: #1e3a8a;
@@ -173,4 +174,71 @@ h6 {
 
 .animate-fade-in {
   animation: fadeIn 0.8s ease-out forwards;
+}
+
+/* Improbidade Hero Animations (CSS-based, won't pause in background tabs) */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* SpotlightCard — mouse-tracking radial glow (from plenum-brasil) */
+.card-spotlight {
+  position: relative;
+  overflow: hidden;
+  --mouse-x: 50%;
+  --mouse-y: 50%;
+  --spotlight-color: rgba(59, 130, 246, 0.15);
+}
+
+.card-spotlight::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle 300px at var(--mouse-x) var(--mouse-y),
+    var(--spotlight-color),
+    transparent 70%
+  );
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.card-spotlight:hover::before {
+  opacity: 0.6;
+}
+
+.card-spotlight > * {
+  position: relative;
+  z-index: 2;
 }
