@@ -103,9 +103,9 @@ h3 {
   text-transform: uppercase;
 }
 
-.improbidade-page h1,
-.improbidade-page h2,
-.improbidade-page h3 {
+.improbidade-page h1:not(.uppercase),
+.improbidade-page h2:not(.uppercase),
+.improbidade-page h3:not(.uppercase) {
   text-transform: none;
 }
 
