@@ -103,6 +103,12 @@ h3 {
   text-transform: uppercase;
 }
 
+.improbidade-page h1,
+.improbidade-page h2,
+.improbidade-page h3 {
+  text-transform: none;
+}
+
 h4,
 h5,
 h6 {

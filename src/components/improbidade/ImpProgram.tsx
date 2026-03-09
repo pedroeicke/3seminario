@@ -172,7 +172,7 @@ export default function ImpProgram() {
         <div className="text-center mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-bold px-5 py-2.5 rounded-full tracking-wider">
             <Calendar className="w-4 h-4" />
-            14 E 15 DE MAIO
+            14 e 15 de Maio
           </div>
           <h2 className="text-4xl lg:text-[72px] font-bold text-gray-900 leading-none tracking-tight">
             Programação
@@ -181,8 +181,8 @@ export default function ImpProgram() {
 
         {/* Days */}
         <div className="flex flex-col">
-          {renderDay(day1, '14', 'DE MAIO', 'Quinta-feira')}
-          {renderDay(day2, '15', 'DE MAIO', 'Sexta-feira')}
+          {renderDay(day1, '14', 'de Maio', 'Quinta-feira')}
+          {renderDay(day2, '15', 'de Maio', 'Sexta-feira')}
         </div>
       </div>
     </section>

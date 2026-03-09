@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 
 export default function ImprobidadeAdministrativaPage() {
   return (
-    <main className="overflow-x-hidden" style={{ background: '#030d1f' }}>
+    <main className="improbidade-page overflow-x-hidden" style={{ background: '#030d1f' }}>
       <GsapVisibilityFix />
       <ImpHero />
       <ImpAbout />

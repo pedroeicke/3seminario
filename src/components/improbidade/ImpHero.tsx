@@ -58,17 +58,17 @@ export default function ImpHero() {
           <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-green-500/[0.06] via-transparent to-green-500/[0.06]" />
 
           <div className="relative px-8 sm:px-14 pt-8 sm:pt-10 pb-16 sm:pb-20 text-center">
-            <p className="text-2xl sm:text-3xl lg:text-4xl font-normal uppercase tracking-[0.15em] mb-2 animate-[fadeInUp_0.6s_0.7s_both]" style={{ color: '#f8c94f' }}>
+            <p className="text-2xl sm:text-3xl lg:text-4xl font-normal tracking-[0.15em] mb-2 animate-[fadeInUp_0.6s_0.7s_both]" style={{ color: '#f8c94f' }}>
               Imersão
             </p>
-            <p className="text-white text-2xl sm:text-3xl lg:text-4xl font-light uppercase tracking-[0.2em] animate-[fadeInUp_0.8s_0.8s_both]">
+            <p className="text-white text-2xl sm:text-3xl lg:text-4xl font-light tracking-[0.2em] animate-[fadeInUp_0.8s_0.8s_both]">
               Nova Lei de
             </p>
           </div>
         </div>
 
         {/* Big title — outside glass, emerges from fade */}
-        <h1 className="uppercase leading-[0.92] text-center -mt-12 sm:-mt-16 relative z-10 animate-[fadeInUp_0.8s_0.95s_both]">
+        <h1 className="leading-[0.92] text-center -mt-12 sm:-mt-16 relative z-10 animate-[fadeInUp_0.8s_0.95s_both]">
           <span
             className="block text-6xl sm:text-7xl lg:text-[5.5rem] tracking-[0.06em] font-black"
             style={{
@@ -95,10 +95,10 @@ export default function ImpHero() {
 
         {/* Subtitle */}
         <div className="mt-4 mb-6 animate-[fadeInUp_0.7s_1.3s_both] text-center">
-          <p className="text-white text-sm sm:text-base lg:text-lg font-light uppercase tracking-[0.25em] mb-2">
+          <p className="text-white text-sm sm:text-base lg:text-lg font-light tracking-[0.25em] mb-2">
             Na Prática do
           </p>
-          <p className="text-3xl sm:text-4xl lg:text-5xl font-normal uppercase tracking-[0.05em]">
+          <p className="text-3xl sm:text-4xl lg:text-5xl font-normal tracking-[0.05em]">
             <span style={{ color: '#2797ff' }}>
               STF, STJ e TSE
             </span>
@@ -116,7 +116,7 @@ export default function ImpHero() {
           <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/[0.08]">
             {speakers.map((speaker) => (
               <div key={speaker.name} className="px-4 sm:px-6 py-5 sm:py-4">
-                <p className="font-bold text-sm sm:text-[13px] uppercase tracking-wide leading-tight mb-2" style={{ color: '#fed222' }}>
+                <p className="font-bold text-sm sm:text-[13px] tracking-wide leading-tight mb-2" style={{ color: '#fed222' }}>
                   {speaker.name}
                 </p>
                 <p className="text-white/35 text-xs leading-relaxed">

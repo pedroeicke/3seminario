@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { MapPin, Phone, Building2, Calendar, Clock } from 'lucide-react';
+import { MapPin, Phone, Building2 } from 'lucide-react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -79,20 +79,6 @@ export default function ImpLocation() {
                   <p className="text-white/40 leading-relaxed text-base">
                     Setor Comercial Sul, Quadra 6, Bloco A<br />
                     Brasília / DF
-                  </p>
-                </div>
-              </div>
-
-              {/* Date & Time */}
-              <div className="loc-card flex items-start gap-4 p-5 rounded-2xl border border-transparent bg-transparent hover:border-blue-500/20 hover:bg-blue-500/[0.04] transition-all duration-300 group">
-                <div className="flex-shrink-0 w-11 h-11 rounded-xl bg-[#3b82f6] text-white flex items-center justify-center">
-                  <Calendar className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="font-bold text-xl text-white mb-1">14 e 15 de Maio de 2026</h3>
-                  <p className="text-white/40 leading-relaxed text-base">
-                    Quarta e Quinta-feira · Das 08h30 às 18h00<br />
-                    Carga horária total: 16 horas/aula
                   </p>
                 </div>
               </div>
