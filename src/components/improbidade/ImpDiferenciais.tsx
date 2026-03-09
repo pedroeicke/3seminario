@@ -65,7 +65,7 @@ export default function ImpDiferenciais() {
         {/* Header */}
         <div className="diff-header mb-16 text-center">
           <h2
-            className="text-4xl lg:text-[72px] font-light tracking-tight leading-snug max-w-3xl mx-auto"
+            className="text-2xl sm:text-4xl lg:text-[72px] font-light tracking-tight leading-snug max-w-3xl mx-auto"
             style={{
               background: 'linear-gradient(180deg, #ffffff 0%, #9ca3af 100%)',
               WebkitBackgroundClip: 'text',
@@ -73,8 +73,8 @@ export default function ImpDiferenciais() {
               backgroundClip: 'text',
             }}
           >
-            O novo cenário da improbidade<br />
-            exige clareza sobre conceitos, requisitos<br />
+            O novo cenário da improbidade{' '}<br className="hidden lg:block" />
+            exige clareza sobre conceitos, requisitos{' '}<br className="hidden lg:block" />
             e entendimentos consolidados.
           </h2>
         </div>

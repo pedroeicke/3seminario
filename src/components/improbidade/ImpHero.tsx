@@ -70,7 +70,7 @@ export default function ImpHero() {
         {/* Big title — outside glass, emerges from fade */}
         <h1 className="uppercase leading-[0.92] text-center -mt-12 sm:-mt-16 relative z-10 animate-[fadeInUp_0.8s_0.95s_both]">
           <span
-            className="block text-6xl sm:text-7xl lg:text-[5.5rem] tracking-[0.06em] font-black"
+            className="block text-[2.6rem] sm:text-7xl lg:text-[5.5rem] tracking-[0.06em] font-black"
             style={{
               background: 'linear-gradient(180deg, #f4b959 0%, #e37a22 100%)',
               WebkitBackgroundClip: 'text',
@@ -81,7 +81,7 @@ export default function ImpHero() {
             Improbidade
           </span>
           <span
-            className="block text-[2.75rem] sm:text-5xl lg:text-[4.2rem] tracking-[0.04em] font-normal animate-[fadeInUp_0.8s_1.1s_both]"
+            className="block text-[2rem] sm:text-5xl lg:text-[4.2rem] tracking-[0.04em] font-normal animate-[fadeInUp_0.8s_1.1s_both]"
             style={{
               background: 'linear-gradient(180deg, #f4b959 0%, #e37a22 100%)',
               WebkitBackgroundClip: 'text',
@@ -98,7 +98,7 @@ export default function ImpHero() {
           <p className="text-white text-sm sm:text-base lg:text-lg font-light uppercase tracking-[0.25em] mb-2">
             Na Prática do
           </p>
-          <p className="text-3xl sm:text-4xl lg:text-5xl font-normal uppercase tracking-[0.05em]">
+          <p className="text-2xl sm:text-4xl lg:text-5xl font-normal uppercase tracking-[0.05em]">
             <span style={{ color: '#2797ff' }}>
               STF, STJ e TSE
             </span>
@@ -134,7 +134,7 @@ export default function ImpHero() {
       <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8 lg:pb-12">
         {/* Info Bar — pill glass black */}
         <div className="flex justify-center mb-8 animate-[fadeInUp_0.6s_2s_both]">
-          <div className="inline-flex flex-col sm:flex-row items-stretch rounded-full bg-black/60 backdrop-blur-xl border border-white/[0.10] overflow-hidden divide-y sm:divide-y-0 sm:divide-x divide-white/[0.10]">
+          <div className="inline-flex flex-col sm:flex-row items-stretch rounded-3xl sm:rounded-full bg-black/60 backdrop-blur-xl border border-white/[0.10] overflow-hidden divide-y sm:divide-y-0 sm:divide-x divide-white/[0.10]">
             {[
               { icon: Clock, label: 'Carga horária:', value: '16h' },
               { icon: MapPin, label: '', value: 'Brasília/DF' },

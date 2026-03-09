@@ -50,7 +50,7 @@ export default function ImpAbout() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
           {/* Left - Text */}
           <div>
-            <h2 className="about-title text-4xl lg:text-[72px] font-bold tracking-tight leading-none mb-8">
+            <h2 className="about-title text-3xl sm:text-4xl lg:text-[72px] font-bold tracking-tight leading-none mb-8">
               <span className="block bg-gradient-to-b from-white via-white/80 to-gray-400 bg-clip-text text-transparent">
                 Apresentação
               </span>

@@ -79,7 +79,7 @@ export default function ImpFolderForm() {
               Material Exclusivo
             </div>
 
-            <h2 className="folder-anim text-4xl sm:text-5xl lg:text-[72px] font-bold tracking-tight leading-[1.05] mb-5">
+            <h2 className="folder-anim text-3xl sm:text-5xl lg:text-[72px] font-bold tracking-tight leading-[1.05] mb-5">
               <span className="bg-gradient-to-b from-white via-white/90 to-white/55 bg-clip-text text-transparent">Baixe o Folder</span>
               <br />
               <span className="text-white/40">Completo do Evento</span>

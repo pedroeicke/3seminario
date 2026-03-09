@@ -145,7 +145,7 @@ export default function ImpProgram() {
       {/* Sticky Date Column */}
       <div className="lg:w-48 flex-none">
         <div className="lg:sticky lg:top-32 text-left">
-          <span className="text-7xl lg:text-8xl font-bold text-gray-900 tracking-tighter leading-none block">
+          <span className="text-5xl sm:text-7xl lg:text-8xl font-bold text-gray-900 tracking-tighter leading-none block">
             {dayNum}
           </span>
           <span className="text-xl lg:text-2xl text-[#0885fe] font-bold tracking-wide block -mt-1 mb-2">
@@ -174,7 +174,7 @@ export default function ImpProgram() {
             <Calendar className="w-4 h-4" />
             14 e 15 de Maio
           </div>
-          <h2 className="text-4xl lg:text-[72px] font-bold text-gray-900 leading-none tracking-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-[72px] font-bold text-gray-900 leading-none tracking-tight">
             Programação
           </h2>
         </div>
