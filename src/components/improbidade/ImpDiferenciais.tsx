@@ -73,7 +73,9 @@ export default function ImpDiferenciais() {
               backgroundClip: 'text',
             }}
           >
-            O novo cenário da improbidade exige clareza sobre conceitos, requisitos e entendimentos consolidados.
+            O novo cenário da improbidade<br />
+            exige clareza sobre conceitos, requisitos<br />
+            e entendimentos consolidados.
           </h2>
         </div>
 
