@@ -72,14 +72,14 @@ export default function ImpSpeakers() {
 
                 {/* Text content — left side with padding for image on desktop */}
                 <div className="p-8 md:p-10 md:pr-[280px]">
-                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 uppercase tracking-tight">
+                  <h3 className="text-2xl md:text-3xl font-bold text-white mb-2 tracking-tight">
                     {speaker.name}
                   </h3>
-                  <p className="text-blue-400 text-sm font-semibold uppercase tracking-widest mb-1 whitespace-pre-line">
+                  <p className="text-blue-400 text-sm font-semibold tracking-widest mb-1 whitespace-pre-line">
                     {speaker.role}
                   </p>
                   {speaker.subtitle && (
-                    <p className="text-amber-400/70 text-sm font-semibold uppercase tracking-widest mb-5">
+                    <p className="text-amber-400/70 text-sm font-semibold tracking-widest mb-5">
                       {speaker.subtitle}
                     </p>
                   )}

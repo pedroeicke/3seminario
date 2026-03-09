@@ -78,7 +78,7 @@ export default function ImpAbout() {
               <span className="w-10 h-10 rounded-xl bg-[#3b82f6] flex items-center justify-center">
                 <Users className="w-5 h-5 text-white" />
               </span>
-              <h3 className="text-2xl font-bold uppercase text-white tracking-tight">Para quem é?</h3>
+              <h3 className="text-2xl font-bold text-white tracking-tight">Para quem é?</h3>
             </div>
             <div className="audience-grid grid grid-cols-1 sm:grid-cols-2 gap-3">
               {audiences.map((item) => {

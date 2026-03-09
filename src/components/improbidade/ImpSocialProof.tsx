@@ -85,7 +85,7 @@ export default function ImpSocialProof() {
 
         {/* Institution logos */}
         <div className="text-center mb-10">
-          <h3 className="text-sm font-bold uppercase text-white/30 tracking-[0.2em]">
+          <h3 className="text-sm font-bold text-white/30 tracking-[0.2em]">
             Instituições que já se capacitaram conosco
           </h3>
         </div>

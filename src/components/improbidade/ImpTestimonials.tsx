@@ -84,8 +84,8 @@ export default function ImpTestimonials() {
 
                 {/* Author */}
                 <div className="mt-5 pt-4 border-t border-white/[0.06]">
-                  <p className="text-white font-bold text-base uppercase tracking-wide">{t.name}</p>
-                  <p className="text-blue-400/60 text-xs font-semibold uppercase tracking-wider mt-0.5">{t.role}</p>
+                  <p className="text-white font-bold text-base tracking-wide">{t.name}</p>
+                  <p className="text-blue-400/60 text-xs font-semibold tracking-wider mt-0.5">{t.role}</p>
                 </div>
               </div>
             </div>

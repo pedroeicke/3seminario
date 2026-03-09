@@ -98,10 +98,10 @@ export default function ImpProgram() {
 
         {/* Info */}
         <div className="flex-1">
-          <h3 className="text-[#0885fe] font-extrabold text-2xl uppercase tracking-wide mb-1">
+          <h3 className="text-[#0885fe] font-extrabold text-2xl tracking-wide mb-1">
             {mod.title}
           </h3>
-          <p className="text-gray-500 text-sm font-bold uppercase tracking-wider mb-0.5">
+          <p className="text-gray-500 text-sm font-bold tracking-wider mb-0.5">
             {mod.speakers.length > 1 ? 'Palestrantes:' : 'Palestrante:'}
           </p>
           {mod.speakers.map((speaker) => (
@@ -125,7 +125,7 @@ export default function ImpProgram() {
 
       {/* Content / Ementa */}
       <div className="p-6">
-        <p className="text-gray-900 font-bold text-base uppercase tracking-wide mb-4">
+        <p className="text-gray-900 font-bold text-base tracking-wide mb-4">
           Conteúdo — <span className="normal-case font-semibold">{mod.subtitle}</span>
         </p>
         <div className="space-y-3">
@@ -148,11 +148,11 @@ export default function ImpProgram() {
           <span className="text-7xl lg:text-8xl font-bold text-gray-900 tracking-tighter leading-none block">
             {dayNum}
           </span>
-          <span className="text-xl lg:text-2xl text-[#0885fe] font-bold uppercase tracking-wide block -mt-1 mb-2">
+          <span className="text-xl lg:text-2xl text-[#0885fe] font-bold tracking-wide block -mt-1 mb-2">
             {dayMonth}
           </span>
           <div className="h-1 w-12 bg-gray-900 rounded-full mb-3" />
-          <span className="text-base font-bold text-gray-400 uppercase tracking-widest">
+          <span className="text-base font-bold text-gray-400 tracking-widest">
             {dayName}
           </span>
         </div>
@@ -170,7 +170,7 @@ export default function ImpProgram() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16 space-y-4">
-          <div className="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-bold px-5 py-2.5 rounded-full uppercase tracking-wider">
+          <div className="inline-flex items-center gap-2 bg-gray-900 text-white text-sm font-bold px-5 py-2.5 rounded-full tracking-wider">
             <Calendar className="w-4 h-4" />
             14 E 15 DE MAIO
           </div>

@@ -97,7 +97,7 @@ export default function ImpInvestment() {
             <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-600 via-cyan-400 to-blue-600" />
             <div className="absolute top-0 right-0 w-40 h-40 bg-blue-500/5 rounded-full blur-3xl" />
             <div className="relative z-10 space-y-6 flex-1 flex flex-col">
-              <h3 className="text-3xl font-bold text-white uppercase tracking-wide">Inscrição Presencial</h3>
+              <h3 className="text-3xl font-bold text-white tracking-wide">Inscrição Presencial</h3>
 
               <div className="space-y-4">
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border border-white/20">
@@ -134,7 +134,7 @@ export default function ImpInvestment() {
                 rel="noopener noreferrer"
                 className="block mt-auto"
               >
-                <span className="w-full flex items-center justify-center bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-full py-4 text-lg font-bold uppercase tracking-wider backdrop-blur-sm transition-all group/btn">
+                <span className="w-full flex items-center justify-center bg-white/20 hover:bg-white/30 text-white border border-white/30 rounded-full py-4 text-lg font-bold tracking-wider backdrop-blur-sm transition-all group/btn">
                   Inscreva-se Agora <ArrowRight className="ml-2 w-5 h-5 group-hover/btn:translate-x-1 transition-transform" />
                 </span>
               </a>
@@ -156,7 +156,7 @@ export default function ImpInvestment() {
             />
           </div>
           <div>
-            <h4 className="text-blue-400 font-bold text-xl uppercase tracking-wider mb-2">Nova Edição</h4>
+            <h4 className="text-blue-400 font-bold text-xl tracking-wider mb-2">Nova Edição</h4>
             <p className="text-white/60 text-base leading-relaxed">
               Os participantes receberão, como cortesia, um exemplar da 3ª edição do livro <strong className="text-white/90">Nova Lei de Improbidade Administrativa Comentada</strong>, do Dr. Igor Pinheiro.
             </p>
@@ -169,7 +169,7 @@ export default function ImpInvestment() {
             <div className="flex items-center gap-3">
               <CreditCard className="w-5 h-5 text-blue-400 flex-shrink-0" />
               <div>
-                <p className="text-xs font-bold uppercase tracking-wider text-white/30">Meios de Pagamento:</p>
+                <p className="text-xs font-bold tracking-wider text-white/30">Meios de Pagamento:</p>
                 <p className="text-base text-white/60">Boleto, Transferência, Cheque, Depósito, TED, PIX</p>
               </div>
             </div>
@@ -222,7 +222,7 @@ export default function ImpInvestment() {
                 onClick={() => toggleFaq(id)}
                 className="w-full flex items-center justify-between p-5 text-left cursor-pointer"
               >
-                <span className="text-white font-bold text-base uppercase tracking-wider">{title}</span>
+                <span className="text-white font-bold text-base tracking-wider">{title}</span>
                 <div className={`w-7 h-7 rounded-full bg-white/5 flex items-center justify-center transition-transform duration-300 ${faqOpen === id ? 'rotate-180 bg-blue-500/10' : ''}`}>
                   <ChevronDown className="w-4 h-4 text-white/40" />
                 </div>

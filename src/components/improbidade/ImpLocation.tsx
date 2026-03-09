@@ -50,7 +50,7 @@ export default function ImpLocation() {
           {/* Left — Info */}
           <div className="lg:w-1/2 space-y-8 order-2 lg:order-1">
             {/* Label */}
-            <div className="loc-label flex items-center gap-2 uppercase tracking-[0.2em] text-base font-bold text-blue-400">
+            <div className="loc-label flex items-center gap-2 tracking-[0.2em] text-base font-bold text-blue-400">
               <MapPin className="w-4 h-4" />
               <span>Localização</span>
             </div>
@@ -118,7 +118,7 @@ export default function ImpLocation() {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <p className="text-xs text-white/30 uppercase tracking-wider mb-0.5">Informações</p>
+                  <p className="text-xs text-white/30 tracking-wider mb-0.5">Informações</p>
                   <a href="tel:3125311750" className="font-bold text-white text-base hover:text-blue-400 transition-colors">(31) 2531-1750</a>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export default function ImpLocation() {
                   <Phone className="w-4 h-4" />
                 </div>
                 <div>
-                  <p className="text-xs text-white/30 uppercase tracking-wider mb-0.5">Atendimento</p>
+                  <p className="text-xs text-white/30 tracking-wider mb-0.5">Atendimento</p>
                   <a href="tel:3140034961" className="font-bold text-white text-base hover:text-blue-400 transition-colors">(31) 4003-4961</a>
                 </div>
               </div>

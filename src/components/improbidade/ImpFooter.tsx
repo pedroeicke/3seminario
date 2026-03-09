@@ -86,11 +86,11 @@ export default function ImpFooter() {
 
         {/* Bottom bar */}
         <div className="mt-10 pt-6 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-2">
-          <p className="text-xs text-white/15 uppercase tracking-[0.2em]">
+          <p className="text-xs text-white/15 tracking-[0.2em]">
             &copy; 2026 Instituto Plenum Brasil. Todos os direitos reservados.
           </p>
           <div className="flex items-center gap-4">
-            <p className="text-xs text-white/15 uppercase tracking-[0.2em] hover:text-white/30 transition-colors">
+            <p className="text-xs text-white/15 tracking-[0.2em] hover:text-white/30 transition-colors">
               Site desenvolvido por Pastel Apps
             </p>
             <button
